@@ -3,9 +3,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Netflix login page CLONE</title>
+    <title>Netflix CLONE</title>
     <link rel="stylesheet" href="/assets/styles.css">
-    <link rel="icon" type="image/x-icon" href="/assets/netflix_favicon.png">
+    <script src="https://kit.fontawesome.com/7ff2a84e36.js" crossorigin="anonymous"></script>
 </head>
 <body>
     <section id="header">
@@ -16,7 +16,7 @@
             <h2>Sign In</h2>
             <input type="text" placeholder="Email or phone number">
             <input type="text" placeholder="Password">
-            <input style="background-color:red; color: white;" type="submit" value="Sign In">
+            <input id="sign-in-button" type="submit" value="Sign In">
             <div>
                 <div>
                     <input type="checkbox" checked>
@@ -26,24 +26,27 @@
             </div>
             <div>
                 <p>New to Netflix? <span style="color:white;">Sign up now</span>.</p>
-                <p>This page is protected by Google reCAPTCHA to ensure you're not a bot. <span style="color:blue;">Learn more.</span></p>
+                <p>This page is protected by Google reCAPTCHA to ensure you're not a bot. <span style="color: #0071eb;;">Learn more.</span></p>
             </div>
         </form>
     </section>
-    <section id="footer">
-        <h3>Questions? Call 1-844-505-2993</h3>
-        <ul>
-            <li>FAQ</li>
-            <li>Help Center</li>
-            <li>Netflix Shop</li>
-            <li>Terms of Use</li>
-            <li>Privacy</li>
-            <li>Cookie Preferences</li>
-            <li>Corporate Information</li>
-            <li>Do Not Sell or Share My Personal Information</li>
-            <li>Ad Choices</li>
-        </ul>
-        <button>English</button>
-    </section>
+    <div id="footer-divider"></div>
+    <div id="footer-wrapper">
+        <section id="footer">
+            <p>Questions? Call 1-844-505-2993</p>
+            <ul>
+                <li>FAQ</li>
+                <li>Help Center</li>
+                <li>Netflix Shop</li>
+                <li>Terms of Use</li>
+                <li>Privacy</li>
+                <li>Cookie Preferences</li>
+                <li>Corporate Information</li>
+                <li>Do Not Sell or Share My Personal Information</li>
+                <li>Ad Choices</li>
+            </ul>
+            <button><i class="fa-solid fa-globe"></i>English<i class="fa-solid fa-angle-down"></i></button>
+        </section>
+    </div>
 </body>
 </html>
